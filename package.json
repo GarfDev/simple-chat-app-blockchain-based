@@ -1,0 +1,7 @@
+{
+  "name": "blockchain-based-chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "GarfDev <garfdev.13@gmail.com>",
+  "license": "MIT"
+}
