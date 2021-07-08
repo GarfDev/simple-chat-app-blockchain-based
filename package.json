@@ -3,5 +3,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "GarfDev <garfdev.13@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./public/index.html",
+    "build": "parcel build ./public/index.html"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "recoil": "^0.3.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/parcel-env": "^0.0.0",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "@types/web3": "^1.2.2",
+    "ganache-core": "^2.13.2",
+    "parcel": "^2.0.0-beta.3.1"
+  }
 }

@@ -1,4 +1,7 @@
 contracts/.placeholder
 test/.placeholder
 build
+dist
 node_modules
+.parcel-cache
+.cache
