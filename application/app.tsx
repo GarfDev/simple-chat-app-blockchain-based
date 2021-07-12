@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 import { useRecoilState } from "recoil";
 import React, { useEffect, useRef, useState } from "react";
 import { Message, MessageState } from "./modules/core/messages";
-import ChatAppContract from "../build/contracts/ChatApp.json";
+import ChatAppContract from "./ChapAppDist.json";
 
 const contractAddress = "0x2D00Fa58b0f19924Df0091d03dC47365504A79d2";
 
