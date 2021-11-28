@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Message, MessageState } from "./modules/core/messages";
 import ChatAppContract from "./ChapAppDist.json";
 
-const contractAddress = "0x2D00Fa58b0f19924Df0091d03dC47365504A79d2";
+const contractAddress = "0xc2ec4C4528922d7fe1c285DcE83aE1aD9746D3a6";
 
 const App = (): JSX.Element => {
   const [newMessage, setNewMessage] = useState("");
